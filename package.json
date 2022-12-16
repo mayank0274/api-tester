@@ -1,10 +1,10 @@
 {
-  "name": "acode-plugin",
-  "version": "1.0.2",
-  "description": "Template for Acode plugin",
+  "name": "api tester",
+  "version": "1.0.0",
+  "description": "Acode plugin for api testing",
   "main": "dist/main.js",
-  "repository": "https://github.com/deadlyjack/acode-plugin.git",
-  "author": "Ajit <me@ajitkumar.dev>",
+  "repository": "https://github.com/mayank0274/api-tester/",
+  "author": "Mayank Sharma",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.2.1",
