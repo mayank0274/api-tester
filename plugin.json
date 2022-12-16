@@ -1,0 +1,14 @@
+{
+  "id": "acode.plugin.restapi",
+  "name": "api tester",
+  "main": "dist/main.js",
+  "version": "1.0.0",
+  "readme": "readme.md",
+  "icon": "icon.png",
+  "files": [],
+  "author": {
+    "name": "Mayank sharma",
+    "email": "sharma.mayank0274@gmail.com",
+    "github": "https://github.com/mayank0274"
+  }
+}
