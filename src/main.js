@@ -1,6 +1,7 @@
 import plugin from '../plugin.json';
 const multiPrompt = acode.require('multiPrompt');  
 const select = acode.require('select');
+const alert = acode.require("alert")
 import axios from "axios"
 class restapi {
 
@@ -34,11 +35,12 @@ axios.get(apiUrl["url"])
   .then(function (response) {
     // handle success
     
-    window.alert(JSON.stringify(response.data));
+    alert(`Status code :- ${JSON.stringify(response.status)}`);
+    alert(JSON.stringify(response.data));
   })
   .catch(function (error) {
     // handle error
-    window.alert(error);
+    alert(error);
   })
   .finally(function () {
     // always executed
@@ -56,11 +58,11 @@ const body = await multiPrompt('Body'            ,[ {
               
           axios.post(apiUrl["url"], body["data"])
   .then(function (response) {
-    
-    window.alert(JSON.stringify(response.data));
+alert(`Status code :- ${JSON.stringify(response.status)}`);
+    alert(JSON.stringify(response.data));
   })
   .catch(function (error) {
-   window.alert(error);
+   alert(error);
   });
 
          }        
@@ -77,26 +79,26 @@ const body = await multiPrompt('Body'            ,[ {
               
           axios.put(apiUrl["url"], body["data"])
   .then(function (response) {
-
-    window.alert(JSON.stringify(response.data));
+alert(`Status code :- ${JSON.stringify(response.status)}`);
+    alert(JSON.stringify(response.data));
   })
   .catch(function (error) {
-   window.alert(error);
+   alert(error);
   });
           
          }else if(reqMode == "Delete"){
 axios.delete(apiUrl["url"])
  .then(function (response) {
    if(response){
-
-    window.alert(JSON.stringify(response.data));
+alert(`Status code :- ${JSON.stringify(response.status)}`);
+    alert(JSON.stringify(response.data));
    }else{
-     window.alert("delete successfully")
+     alert("delete successfully")
    }
      
    })
   .catch(function (error) {
-   window.alert(error);
+   alert(error);
   });
          }
             
