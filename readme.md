@@ -5,6 +5,5 @@
 
 -> If you getting "Axios network error" in Post/Put request then use "cors" in api server file
 
--> For features request/ bug / issues report contact on "sharma.mayank0274@gmail.com"
-
+-> For features request/ bug / issues report contact on "sharma.mayank0274@gmail.com" with subject "Acode - Api tester"
 -> This plugin use "axios" for sending requests
