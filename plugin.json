@@ -1,6 +1,6 @@
 {
   "id": "acode.plugin.restapi",
-  "name": "api tester",
+  "name": "REST Api Tester",
   "main": "dist/main.js",
   "version": "1.0.0",
   "readme": "readme.md",
