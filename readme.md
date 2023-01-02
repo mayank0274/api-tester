@@ -1,6 +1,6 @@
 # Rest Api Tester
 
-->This tool helps you to test rest api in easy way in acode
+->This tool helps you to test rest api in easy way in acode code editor
 
 -> This plugin use "axios" module to send request
 
