@@ -9,6 +9,7 @@
 # Usage
 
 Type "restapi" in command pallete('...' dot in bottom navigation bar) enter api url select request method and wait for response
+![](https://github.com/mayank0274/api-tester/blob/main/usage%20guide.gif)
 
 # Latest version
 
