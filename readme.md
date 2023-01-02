@@ -1,21 +1,25 @@
 # Rest Api Tester
+
 ->This tool helps you to test rest api in easy way in acode
 
 -> This plugin use "axios" module to send request
 
 -> If you get "axios network error" in Post/Put request use "cors" in api server file
 
+# Usage
+
+Type "restapi" in command pallete('...' dot in bottom navigation bar) enter api url select request method and wait for response
+
 # Latest version
 
 `1.0.1` 
-
 ->Better user experience
 
 ->Response display in better readable format
 
-# Contact me
+# 📬 Contact me 
 
-:mailbox_with_mail: Feature suggestion/Bug report on with subject "Acode - Rest Api Tester"
+Feature suggestion/Bug report on with subject "Acode - Rest Api Tester"
 
 sharma.mayank0274@gmail.com
 
