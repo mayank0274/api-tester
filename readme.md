@@ -17,13 +17,3 @@ Type "restapi" in command pallete('...' dot in bottom navigation bar) enter api 
 ->Better user experience
 
 ->Response display in better readable format
-
-# 📬 Contact me 
-
-Feature suggestion/Bug report on with subject "Acode - Rest Api Tester"
-
-sharma.mayank0274@gmail.com
-
-# Github repo link
-
-[Link of GitHub repo of this plugin](https://github.com/mayank0274/api-tester)
