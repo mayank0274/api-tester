@@ -4,6 +4,7 @@
 
 -> If you get "axios network error" use "cors" in api server file or check your network connection
 
+<img src="https://github.com/mayank0274/api-tester/blob/main/demo.gif" width="100vw">
 
 # Latest version
 ```1.1.0```
