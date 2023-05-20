@@ -1,0 +1,122 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  width: 100vw;
+  
+  section {
+    margin-bottom: 35px;
+  }
+  
+  .reqModeContainer,
+  .urlContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .urlContainer {
+    margin-top: 6px;
+  }
+  
+  .url {
+    width: 75%;
+    font-size: 17px;
+    padding: 3px;
+  }
+  
+  label {
+    font-size: 17px;
+    padding: 3px;
+  }
+  
+  select {
+    border-radius: 5px;
+    padding: 6px;
+    width: 75%;
+    height: 38px;
+    background-color: #404258;
+    color: #fff;
+  }
+  
+  .headerSection,
+  .requestBodySection {
+    width: 90%;
+  }
+  
+  .reqHeadersWrapper {
+    background-color: #404258;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 95%;
+    padding: 9px;
+  }
+  
+  textarea {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    width: 80%;
+    margin-top: 5px;
+    padding: 5px;
+  }
+  
+  .requestBodySection {
+    display: none;
+  }
+  
+  .reqBody {
+    width: 95%;
+    background-color: #404258;
+    border: 1px solid gray;
+  }
+  
+  .sendRequestBtn {
+    width: 45%;
+    padding: 7px;
+    text-align: center;
+    font-size: 19px;
+    background-color: #915eff;
+    color: #fff;
+    border: 1px solid #915eff;
+    border-radius: 5px;
+  }
+  
+}
+
+.responseDiv {
+  display: none;
+}
+
+.status,
+.resHead {
+  padding: 12px;
+}
+
+.statusVal,
+.response {
+  padding: 10px;
+  color: green;
+  user-select: text;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.tabsContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.requestTab,.responseTab{
+  width: 33%;
+  margin: 7px;
+  text-align: center;
+  padding: 10px;
+}
+
+.requestTab{
+  border-bottom: 1.5px solid #915eff;
+}
