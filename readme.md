@@ -6,11 +6,9 @@
 
 
 # Latest version
-```1.1.0```
+```1.1.1```
 
-• Interactive UI 
-
-• Added support for request headers
+• Add save request feature
 
 # Usage
 

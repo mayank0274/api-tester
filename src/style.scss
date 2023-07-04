@@ -105,18 +105,20 @@
   word-wrap: break-word;
 }
 
-.tabsContainer{
+.tabsContainer {
   display: flex;
   justify-content: space-between;
+  box-shadow: rgb(0, 0, 0) 0px 1px 2px;
 }
 
-.requestTab,.responseTab{
+.requestTab,
+.responseTab {
   width: 33%;
   margin: 7px;
   text-align: center;
   padding: 10px;
 }
 
-.requestTab{
+.requestTab {
   border-bottom: 1.5px solid #915eff;
 }
