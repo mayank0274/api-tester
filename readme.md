@@ -4,6 +4,7 @@
 
 -> If you get "axios network error" use "cors" in api server file or check your network connection
 
+<img src="https://github.com/mayank0274/api-tester/blob/main/demo.gif" width="100vw">
 
 # Latest version
 ```1.1.1```
@@ -17,7 +18,7 @@ Type "restapi" in command pallete('...' dot in bottom navigation bar) enter api 
 => Request body and Headers format is like a object: 
 ```
 {
-"key n":"value 1",
+"key 1":"value 1",
   |
   |
 "key n":"value n"
